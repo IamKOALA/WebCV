@@ -1,120 +1,54 @@
-html,
-body {
-  margin: 0;
-  font-family: "Montserrat", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-body {
-  min-width: 430px;
-  border: 2px dashed #c7e4ff;
-}
-
-html::before,
-body::before,
-header::before,
-footer::before,
-main::before {
-  color: #7fc1ff;
-}
-
-main,
-header,
-footer {
-  background-color: #f3faff;
-  border: 2px solid #7fc1ff;
-}
-
-nav,
-section,
-article,
-aside {
-  background-color: #f9f7ff;
-  border: 2px solid #9779ec;
-}
-
-nav::before,
-section::before,
-article::before,
-aside::before {
-  color: #9779ec;
-}
-
 h1 {
-  font-size: 18px;
-  background-color: #ffffff;
-  border: 2px solid #ff994f;
+  text-align: center;
+  font-size: 2.25em;
+  color: #A60000;
+  margin-bottom: auto;
 }
 
-h1::before {
-  content: "h1";
-  color: #ff994f;
+h2 {
+  margin-top: 1.25em;
+  font-size: 2em;
+  text-align: left;
+  color: #A60000;
 }
 
-p {
-  background-color: #ffffff;
-  border: 2px solid #f36dff;
+.picture {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
 
-p::before {
-  color: #f36dff;
-  content: "p";
+sub {
+  text-align: left;
+  font-size: 1.25em;
+  color: #006363
+}
+body {
+  background-color: #FFBF40;
 }
 
-* {
-  position: relative;
-  padding: 25px 25px 20px;
-  margin: 0;
-  border-radius: 4px;
+.about p {
+  text-align: center;
+  font-size: 1.25em;
+  color: #006363;
 }
 
-*:not(:last-child) {
-  margin-bottom: 20px;
+.projects a {
+  font-size: 1.5em;
 }
 
-*::before {
-  position: absolute;
-  top: 8px;
-  left: 10px;
-  font-weight: 700;
-  font-size: 11px;
-  line-height: 10px;
-  letter-spacing: 0.04em;
+.projects ul {
+  color: #006363;
 }
 
-html::before {
-  content: "html";
+.achievements code {
+  color: #025167;
 }
 
-body::before {
-  content: "body";
-}
-
-main::before {
-  content: "main";
-}
-
-header::before {
-  content: "header";
-}
-
-footer::before {
-  content: "footer";
-}
-
-section::before {
-  content: "section";
-}
-
-article::before {
-  content: "article";
-}
-
-aside::before {
-  content: "aside";
-}
-
-nav::before {
-  content: "nav";
+footer ol{
+  list-style-position: inside;
+  text-align: center;
+  font-size: 1.25em;
+  color: #025167;
 }
