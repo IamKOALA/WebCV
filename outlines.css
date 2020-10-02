@@ -12,7 +12,9 @@ h2 {
   color: #A60000;
 }
 
-.picture {
+
+
+.picture img{
   float: right;
   display: flex;
   flex-direction: column;
