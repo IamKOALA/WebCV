@@ -18,6 +18,7 @@ nav ul {
 }
 
 nav li {
+  font-size: 1.5em;
   flex: auto;
   display: flex;
 }
@@ -33,7 +34,7 @@ nav a {
   width: 100%
 }
 
-.picture{
+.picture {
   float: right;
   display: flex;
   flex-direction: column;
@@ -63,17 +64,49 @@ body {
   justify-content: space-around;
 }
 
-.about p {
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about {
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: 2.2%;
+  background-color: #FFC840;
+  width: 37%;
+  padding: 1%;
   text-align: center;
   font-size: 1.25em;
   color: #006363;
 }
 
+.projects {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 2.2%;
+  background-color: #FFC840;
+  font-size: 1.25em;
+  width: 37%;
+  padding: 1%;
+}
+
+.achievements {
+  background-color: #FFC840;
+  font-size: 1.25em;
+  width: 86%;
+  padding: 1%;
+}
+
+
 .projects a {
+  text-align: center;
   font-size: 1.5em;
 }
 
 .projects ul {
+  text-align: left;
   color: #006363;
 }
 
@@ -81,9 +114,24 @@ body {
   color: #025167;
 }
 
+footer {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.bicycle {
+  display: flex;
+  justify-content: center;
+}
+
 footer ol{
   list-style-position: inside;
   text-align: center;
   font-size: 1.25em;
   color: #025167;
+}
+
+footer li {
+  text-align: center;
 }
